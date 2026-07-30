@@ -8,7 +8,7 @@ export default function Footer() {
               LUMEN<span className="spectral-text">.</span>
             </p>
             <p className="mt-3 max-w-xs text-sm text-muted">
-              A small, curated collection of the finest smartphones — chosen for what they reveal, not what they promise.
+              A small, curated collection of the finest smartphones, chosen for what they reveal, not what they promise.
             </p>
           </div>
 
