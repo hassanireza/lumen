@@ -40,7 +40,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.16 }}
               className="mt-6 max-w-md text-base text-muted"
             >
-              LUMEN carries only the smartphones worth photographing — each one tested, kept in stock,
+              LUMEN carries only the smartphones worth photographing, each one tested, kept in stock,
               and shot the way its designers intended. No filler catalog, no dead listings.
             </motion.p>
             <motion.div
@@ -55,7 +55,7 @@ export default function Home() {
               >
                 View the collection
               </Link>
-              <span className="font-mono text-xs text-muted">{products?.length ?? "—"} devices, in stock now</span>
+              <span className="font-mono text-xs text-muted">{products?.length ?? "..."} devices, in stock now</span>
             </motion.div>
           </div>
 
